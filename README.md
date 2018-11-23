@@ -1,30 +1,32 @@
 # Scala and sbt Dockerfile
 
-This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org) and [sbt](http://www.scala-sbt.org).
+This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org), [sbt](http://www.scala-sbt.org), and [node](http://nodejs.org).
+
+# WIP
 
 
 ## Base Docker Image ##
 
-* [openjdk](https://hub.docker.com/_/openjdk)
+* [scala-sbt](https://hub.docker.com/hseeberger/scala-sbt)
 
 
 ## Installation ##
 
 1. Install [Docker](https://www.docker.com)
-2. Pull [automated build](https://hub.docker.com/r/hseeberger/scala-sbt/) from public [Docker Hub Registry](https://registry.hub.docker.com):
+2. Pull [automated build](https://hub.docker.com/r/butterwell/scala-sbt-node/) from public [Docker Hub Registry](https://registry.hub.docker.com):
 ```
-docker pull hseeberger/scala-sbt
+docker pull butterwell/scala-sbt-node
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
-docker build -t hseeberger/scala-sbt github.com/hseeberger/scala-sbt
+docker build -t butterwell/scala-sbt-node github.com/butterwell/scala-sbt-node
 ```
 
 
 ## Usage ##
 
 ```
-docker run -it --rm hseeberger/scala-sbt
+docker run -it --rm butterwell/scala-sbt-node
 ```
 
 
