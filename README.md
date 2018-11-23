@@ -2,9 +2,6 @@
 
 This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org), [sbt](http://www.scala-sbt.org), and [node](http://nodejs.org).
 
-# WIP
-
-
 ## Base Docker Image ##
 
 * [scala-sbt](https://hub.docker.com/hseeberger/scala-sbt)
